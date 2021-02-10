@@ -6,9 +6,15 @@
 3. getWeiBo.py是爬取微博热搜的python文件
 4. getBaiduNews.exe是爬取微博热搜的exe可执行文件，在没有任何编程环境的Windows系统中都可以运行
 ## 环境
-1. python = 3.8.3
+1. python3
 2. beautifulsoup4 = 4.9.1
 3. urllib3 = 1.25.9
+
+或者执行下面的指令，直接配置环境
+```
+pip install -r requirements.txt
+```
+
 ## 功能介绍
 1. 实现百度新闻的爬取，最终生成词条和链接的txt文件
 2. 实现微博热搜的爬取，最终生成词条和链接的txt文件
